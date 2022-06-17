@@ -1,0 +1,51 @@
+.card_container{
+    width: 100%;
+    border: 1px solid #C2C2C2;
+    
+}
+
+.card{
+    width: 550px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* first keep left and right div at right */
+    justify-content: flex-end;
+}
+
+.left{
+    text-align: left;
+    padding: 10px;
+    /* move left div to left */
+    margin-right: auto;
+}
+
+.order_btn{
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #C83533;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.right img{
+  border-radius: 10px;
+  display: flex;
+  
+}
+
+.description{
+    font-size: smaller;
+    margin-bottom: 10px;
+    color: #C2C2C2;
+}
+.price{
+    font-size: smaller;
+}
+
+.cardtitle{
+    font-weight: 500;
+}

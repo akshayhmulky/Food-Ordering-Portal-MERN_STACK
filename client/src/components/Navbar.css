@@ -1,0 +1,25 @@
+.navbar{
+    height: 40px;
+    background-color: #C63530;
+    display:flex;
+    align-items: center;
+    /* pushses logo and cart to right for now*/
+    justify-content: flex-end; 
+    color: white;
+    padding: 0 20px;
+}
+
+.navbar_logo{
+    font-size: 20px;
+    /* places logo in the middle and margin-right:auto will place logo on left */
+    margin:0 auto; 
+}
+
+.navbar_menu{
+    list-style: none;
+    display: flex;
+}
+ 
+.cart_icon{
+    margin-right: 7px;
+}

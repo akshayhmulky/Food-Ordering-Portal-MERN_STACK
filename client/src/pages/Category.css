@@ -1,0 +1,29 @@
+.home_container{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.catergoryIcons{
+    display: flex;
+    /* margin: 0 auto; */
+}
+
+.pizzaIcon, .burgerIcon {
+    margin-right: 20px;
+    /* border: 1px solid; */
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+.pizzaIcon img, .burgerIcon img{
+    border-radius:50%;
+}
+
+.food_title{
+    font-weight: bold;
+}
